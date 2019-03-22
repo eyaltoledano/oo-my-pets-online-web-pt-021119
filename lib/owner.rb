@@ -71,7 +71,7 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each {|pet_type, owned_pets| owned_pets.clear}
+    # self.pets.each {|pet_type, owned_pets| owned_pets.clear}
     binding.pry
   end
 end
