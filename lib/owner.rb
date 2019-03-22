@@ -71,7 +71,7 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each {|animal, animal_list| pet.clear}
+    self.pets.each {|animal, animal_list| animal_list.clear}
     binding.pry
   end
 end
